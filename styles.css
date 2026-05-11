@@ -1,0 +1,91 @@
+body{
+    font-family: lexend deca;
+    background-image: url(images/White_tile.jpg);
+    background-size: cover;
+    margin: 0;
+}
+.logo{
+    width: 5rem;
+    margin: 1rem;
+}
+.hamburger{
+    width: 75px;
+    padding: 0.5rem;
+}
+.hamburger hr{
+    margin: 0.75rem 1rem;
+    border: 2px solid #f0e6c3;
+}
+header h1{
+    color: #f0e6c3;
+    font-size: 1rem;
+}
+header nav{
+    position: fixed;
+    top: 7.6rem;
+    width: 100%;
+    right: -105%;
+    transition-property: right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+header nav a{
+    display: block;
+    color: #00291C;
+    background-color:#f0e6c3;
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    border: 1px solid #00291C;
+}
+header{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #00291C;
+}
+header nav.show{
+    right: 0;
+}
+main img{
+    width: 22rem;
+}
+.home{
+    margin: 9rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.order{
+    position: absolute;
+    bottom: 6rem;
+    background-color: #00291C;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 10rem;
+    left: 6rem;
+}
+.order a{
+    color: #f0e6c3;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer{
+    background-color: #3b0014;
+    padding: 2rem;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials img{
+    width: 2rem;
+    padding: 1rem;
+}
