@@ -1,6 +1,7 @@
 body{
     font-family: lexend deca;
-   
+    background-image: url(images/White_tile.jpg);
+    background-size: contain;
     margin: 0;
 }
 .logo{
@@ -56,7 +57,7 @@ main img{
     width: 22rem;
 }
 .home{
-    margin: 12rem 0 5rem;
+    margin: 1rem 0 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,7 +65,7 @@ main img{
 }
 .order{
     position: absolute;
-    bottom: 14rem;
+    bottom: 6rem;
     background-color: #00291C;
     padding: 2rem;
     border-radius: 20px;
@@ -106,4 +107,66 @@ main h2{
 .online{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
+}
+.onlinebutton{
+    position: absolute;
+    bottom: 10rem;
+    background-color: #00291C;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    width: 16rem;
+    left: 4.5rem;
+    text-align: center;
+}
+.onlinebutton a{
+    color: #f0e6c3;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    margin: 5rem 0 6rem;
+}
+input{
+    border: #00291C solid 2px;
+    background-color: #f0e6c3;
+    border-radius: 15px;
+    width: 70%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+label{
+    font-size: 1.5rem;
+    color: #00291C;
+}
+textarea{
+    border: #00291C solid 2px;
+    background-color: #f0e6c3;
+    color: #00291C;
+    width: 70%;
+    border-radius: 15px;
+    font-family: lexend deca;
+    text-align: center;
+}
+.action{
+    display: flex;
+    margin: 2rem;
+}
+.whole{
+    background-color: white;
+    border: #00291C solid 2px;
+    padding: 2rem;
+    text-align: center;
+}
+.sizes{
+    display: flex;
+}
+.menu label{
+    margin: 0;
 }
