@@ -328,4 +328,12 @@ textarea{
         bottom: -13rem;
     }
 }
+@media(min-width: 1100px){
+    .order{
+        bottom: -8rem;
+    }
+    .onlinebutton{
+        bottom: -8rem;
+    }
+}
 
