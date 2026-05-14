@@ -30,93 +30,68 @@
     <main>
         <h2>MENU</h2>
         <form class="menu">
-            <label for="name">Name</label>
-            <input type="text">
             <div class="whole">
-                <label for="order">BUILD YOUR OWN PIZZA</label>
-                <label for="size">PIZZA SIZE</label>
+                <h3>BUILD YOUR OWN PIZZA</h3>
+                <h4>PIZZA SIZE</h4>
                 <div class="sizes">
-                    <label for="size">10"</label>
-                    <input type="checkbox">
-                    <label for="size">12"</label>
-                    <input type="checkbox">
-                    <label for="size">16"</label>
-                    <input type="checkbox">
+                    <label for="10"><input type="checkbox" id="10">10"</label>
+                    <label for="12"><input type="checkbox" id="12">12"</label>
+                    <label for="16"><input type="checkbox" id="16">16"</label>
                 </div>
-                <label for="size">PIZZA SAUCE</label>
-                <label for="size">MARINARA</label>
-                <input type="checkbox">
-                <label for="size">PESTO</label>
-                <input type="checkbox">
-                <label for="size">ALFREDO</label>
-                <input type="checkbox">
-                <label for="size">PIZZA TOPPINGS</label>
-                <label for="size">EXTRA CHEESE</label>
-                <input type="checkbox">
-                <label for="size">PEPPERONI</label>
-                <input type="checkbox">
-                <label for="size">SAUSAGE</label>
-                <input type="checkbox">
-                <label for="size">BACON</label>
-                <input type="checkbox">
-                <label for="size">HAM</label>
-                <input type="checkbox">
-                <label for="size">SHREDDED CHICKEN</label>
-                <input type="checkbox">
-                <label for="size">MUSHROOMS</label>
-                <input type="checkbox">
-                <label for="size">ONIONS</label>
-                <input type="checkbox">
-                <label for="size">BLACK OLIVES</label>
-                <input type="checkbox">
-                <label for="size">JALEPENOS</label>
-                <input type="checkbox">
-                <label for="size">GREEN BELL PEPPERS</label>
-                <input type="checkbox">
-                <label for="size">HOT HONEY</label>
-                <input type="checkbox">
-                <label for="size">BALSAMIC GLAZE</label>
-                <input type="checkbox">
-                <label for="size">BUFFALO SAUCE</label>
-                <input type="checkbox">
-                <label for="size">RANCH</label>
-                <input type="checkbox">
-                <label for="size">OUR CREATIONS</label>
-                <label for="size">BUFFALO CHICKEN</label>
-                <input type="checkbox">
-                <label for="size">CHICKEN BACON RANCH</label>
-                <input type="checkbox">
-                <label for="size">MARGHERITA</label>
-                <input type="checkbox">
-                <label for="size">CHICKEN ALFREDO</label>
-                <input type="checkbox">
-                <label for="size">SUPREME</label>
-                <input type="checkbox">
-                <label for="size">MEAT LOVERS</label>
+                    <H4>PIZZA SAUCE</H4>
+                    <label for="marinara"><input type="checkbox" id="marinara">MARINARA</label>
+                    <label for="pesto"><input type="checkbox" id="pesto">PESTO</label>
+                    <label for="alfredo"><input type="checkbox" id="alfredo">ALFREDO</label>
+                    <h4>TOPPINGS</h4>
+                <div class="toppings">    
+                    <label for="extracheese"><input type="checkbox" id="extracheese">EXTRA CHEESE</label>
+                    <label for="pepperoni"><input type="checkbox" id="pepperoni">PEPPERONI</label>
+                    <label for="sausage"><input type="checkbox" id="sausage">SAUSAGE</label>
+                    <label for="bacon"><input type="checkbox" id="bacon">BACON</label>
+                    <label for="ham"><input type="checkbox" id="ham">HAM</label>
+                    <label for="shreddedchicken"><input type="checkbox" id="shreddedchicken">SHREDDED CHICKEN</label>
+                    <label for="mushrooms"><input type="checkbox" id="mushrooms">MUSHROOMS</label>
+                    <label for="onions"><input type="checkbox" id="onions">ONIONS</label>
+                    <label for="blackolives"><input type="checkbox" id="blackolives">BLACK OLIVES</label>
+                    <label for="jalepenos"><input type="checkbox" id="jalepenos">JALEPENOS</label>
+                    <label for="greenbellpeppers"><input type="checkbox" id="greenbellpeppers">GREEN BELL PEPPERS</label>
+                    <label for="hothoney"><input type="checkbox" id="hothoney">HOT HONEY</label>
+                    <label for="balsamicglaze"><input type="checkbox" id="balsamicglaze">BALSAMIC GLAZE</label>
+                    <label for="buffalosauce"><input type="checkbox" id="buffalosauce">BUFFALO SAUCE</label>
+                    <label for="ranch"><input type="checkbox" id="ranch">RANCH</label>
+                    <h4>OUR CREATIONS</h4>
+                    <label for="buffchicken"><input type="checkbox" id="buffchicken">BUFFALO CHICKEN PIZZA</label>
+                    <label for="cbr"><input type="checkbox" id="cbr">CHICKEN BACON RANCH PIZZA</label>
+                    <label for="marg"><input type="checkbox" id="marg">MARGHERITA PIZZA</label>
+                    <label for="chickenalfredo"><input type="checkbox" id="chickenalfredo">CHICKEN ALFREDO PIZZA</label>
+                    <label for="supreme"><input type="checkbox" id="supreme">SUPREME PIZZA</label>
+                    <label for="meatlovers"><input type="checkbox" id="meatlovers">MEAT LOVERS PIZZA</label>
+                </div>    
             </div>
         </form>
-        <h2>PAYMENT</h2>
+        <h2 class="paymentheading">PAYMENT</h2>
         <form class="payment">
-            <label for="name">NAME</label>
-            <input type="text">
-            <label for="email">EMAIL</label>
-            <input type="email">
-            <label for="cardinfo">CREDIT CARD NUMBER</label>
-            <input type="text">
-            <label for="date">EXPIRATION DATE</label>
-            <input type="date">
-            <label for="code">SECURITY CODE</label>
-            <input type="password">
-            <label for="zipcode">ZIP CODE</label>
-            <input type="text">
-            <label for="name">CARDHOLDER NAME</label>
-            <input type="text">
-            <div class="action">
-                <input type="reset" value="RESET">
-                <input type="submit" value="SUBMIT">
+            <div class="paymentwhole">
+                <label for="name">NAME</label>
+                <input type="text" id="name">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email">
+                <label for="cardinfo">CREDIT CARD NUMBER</label>
+                <input type="text" id="cardinfo">
+                <label for="date">EXPIRATION DATE</label>
+                <input type="date" id="date">
+                <label for="code">SECURITY CODE</label>
+                <input type="password" id="code">
+                <label for="zipcode">ZIP CODE</label>
+                <input type="text" id="zipcode">
+                <label for="cardholder">CARDHOLDER NAME</label>
+                <input type="text" id="cardholder">
+                <div class="action">
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                </div>
             </div>
         </form>
-
     </main>
     <footer>
         <div class="socials">

@@ -4,6 +4,11 @@ body{
     background-size: contain;
     margin: 0;
 }
+h2{
+    background-color: #ffffff;
+    border: #00291C solid 2px;
+    border-radius: 20px;
+}
 .logo{
     width: 5rem;
     margin: 1rem;
@@ -64,13 +69,12 @@ main img{
     flex-wrap: wrap;
 }
 .order{
-    position: absolute;
-    bottom: 6rem;
     background-color: #00291C;
+    position: absolute;
+    bottom: -5rem;
     padding: 2rem;
     border-radius: 20px;
     width: 10rem;
-    left: 6rem;
     text-align: center;
 }
 .order a{
@@ -97,12 +101,14 @@ main h2{
     color: #00291C;
 }
 .storybox{
-    background-color: #f0e6c3;
+    background-color: #ffffff;
     border: #00291C solid 4px;
     color: #00291C;
     margin: 0 2rem 5rem;
-    height: 13rem;
+    height: 20rem;
     border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
 }
 .online{
     display: flex;
@@ -111,12 +117,11 @@ main h2{
 }
 .onlinebutton{
     position: absolute;
-    bottom: 10rem;
     background-color: #00291C;
+    bottom: 0rem;
     padding: 2rem 1rem;
     border-radius: 20px;
     width: 16rem;
-    left: 4.5rem;
     text-align: center;
 }
 .onlinebutton a{
@@ -130,16 +135,14 @@ form{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    line-height: 2rem;
-    margin: 5rem 0 6rem;
+    line-height: 1.25rem;
+    margin: 3rem 0 6rem;
 }
 input{
     border: #00291C solid 2px;
-    background-color: #f0e6c3;
+    background-color: #ffffff;
     border-radius: 15px;
-    width: 70%;
     padding: 0.5rem;
-    margin: 1rem;
 }
 label{
     font-size: 1.5rem;
@@ -147,26 +150,182 @@ label{
 }
 textarea{
     border: #00291C solid 2px;
-    background-color: #f0e6c3;
+    background-color: #ffffff;
     color: #00291C;
-    width: 70%;
+    width: 50%;
     border-radius: 15px;
     font-family: lexend deca;
     text-align: center;
+    height: 10rem;
 }
 .action{
     display: flex;
     margin: 2rem;
+    font-family: lexend deca;
+}
+.action input{
+    margin: 1rem;
 }
 .whole{
     background-color: white;
     border: #00291C solid 2px;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
+    margin: 1rem;
+    border-radius: 25px;
+    width: 70%;
+}
+.whole label{
+    font-size: 1rem;
 }
 .sizes{
     display: flex;
+    justify-content: flex-start;
 }
 .menu label{
     margin: 0;
 }
+.toppings{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+h3{
+    font-size: 2rem;
+    color: #00291C;
+    line-height: 2rem;
+}
+h4{
+    font-size: 1.75rem;
+    color: #00291C;
+}
+.paymentheading{
+    margin-top: 2rem;
+}
+.paymentwhole{
+    background-color: white;
+    border: #00291C solid 2px;
+    padding: 2rem;
+    text-align: left;
+    margin: 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3rem;
+    width: 70%;
+}
+.payment input{
+    width: 50%;
+}
+.contact input{
+    width: 50%;
+}
+.contact{
+    line-height: 3rem;
+}
+@media(max-width: 390px){
+    .payment label{
+        font-size: 1rem;
+    }
+    .storybox{
+        font-size: 0.75rem;
+    }
+}
+@media(min-width: 562px){
+    .order{
+        bottom: -1rem;
+    }
+}
+@media(min-width: 800px){
+    .logo{
+        width: 11rem;
+    }
+    .order{
+        bottom: 1rem;
+    }
+    header{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+    main h2{
+        margin-top: 2rem;
+    }
+    .hamburger{
+    width: 75px;
+    padding: 0.5rem;
+}
+.hamburger hr{
+    margin: 0;
+    border: none;
+}
+header h1{
+    color: #f0e6c3;
+    font-size: 0rem;
+}
+header nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0rem;
+    width: 50%;
+    right: 0%;
+    transition-property: none;
+}
+header nav a{
+    display: block;
+    color: #f0e6c3;
+    background-color: #00291C;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.storybox{
+    font-size: 1.5rem;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #00291C;
+}
+.onlinebutton{
+    bottom: -13rem;
+}
+.socials img{
+    width: 3rem;
+}
+.checkbox{
+    width: 1rem;
+}
+.contact{
+    line-height: 2rem;
+}
+.contact input{
+    width: 50%;
+}
+textarea{
+    height: 18rem;
+}
+.order{
+    bottom: -13rem;
+}
+}
+@media(min-width: 1000px){
+    .order{
+        bottom: -13rem;
+    }
+}
+
