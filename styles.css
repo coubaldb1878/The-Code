@@ -335,5 +335,8 @@ textarea{
     .onlinebutton{
         bottom: -8rem;
     }
+    .storybox{
+        font-size: 2rem;
+    }
 }
 
